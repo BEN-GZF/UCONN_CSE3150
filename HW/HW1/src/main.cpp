@@ -1,6 +1,6 @@
 #include <iostream>
-#include "../include/MathUtils.h"
-#include "../include/AdvancedMath.h"
+#include "MathUtils.h"
+#include "AdvancedMath.h"
 
 using namespace MathUtils;
 using namespace AdvancedMath;
@@ -11,9 +11,9 @@ int main()
     int a = 3;
     int b = 4;
 
-    cout << add(x, y) << endl;
-    cout << multiply(x, y) << endl;
-    cout << square(x) << endl;
+    cout << add(a, b) << endl;
+    cout << multiply(a, b) << endl;
+    cout << square(a) << endl;
 
     return 0;
 }
